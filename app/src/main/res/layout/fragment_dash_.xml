@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Dash_Fragment">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:src="@drawable/covid">
+
+    </ImageView>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/state_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#FFF300"
+        app:cardCornerRadius="22dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/what_is_covid_19"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="italic">
+
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="332dp"
+            android:layout_height="216dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="75dp"
+            android:text="@string/on_11_march_2020_who_declared_novel_coronavirus_disease_covid_19_outbreak_as_a_pandemic_and_reiterated_the_call_for_countries_to_take_immediate_actions_and_scale_up_response_to_treat_detect_and_reduce_transmission_to_save_people_s_lives"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:id="@+id/card2"
+        android:layout_below="@id/state_card_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#09FF00"
+        app:cardCornerRadius="22dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:padding="5dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/symptoms"
+            android:textColor="#000000"
+            android:textSize="33sp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tt2"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="56dp"
+            android:padding="5dp"
+            android:text="@string/most_common_symptoms"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tt3"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="96dp"
+            android:padding="5dp"
+            android:text="@string/__fever"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+        android:id="@+id/tt4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="126dp"
+        android:padding="5dp"
+        android:text="@string/dry_cough"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/tt5"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="156dp"
+            android:padding="5dp"
+            android:text="@string/Tiredness"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tt6"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="196dp"
+            android:padding="5dp"
+            android:text="@string/less_common_symptoms"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tt7"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="236dp"
+            android:padding="5dp"
+            android:text="@string/aches_and_pains"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tt8"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="266dp"
+            android:padding="5dp"
+            android:text="@string/sore_throat"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+        android:id="@+id/tt9"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="296dp"
+        android:padding="5dp"
+        android:text="@string/Headache"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/tt0"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="326dp"
+            android:padding="5dp"
+            android:text="@string/diarrhoea_conjunctivitis"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/cov"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_below="@id/card2"
+        android:src="@drawable/doc">
+
+    </ImageView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cov"
+        android:id="@+id/t6"
+        android:layout_marginTop="-41dp"
+        app:cardBackgroundColor="#6CEADB">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="9dp"
+            android:text="@string/while_the_whole_country_is_fighting_against_the_covid_19_crisis_the_ones_on_the_frontline_doctors_and_healthcare_workers_are_working_excruciatingly_hard_for_the_welfare_of_the_patients_and_to_minimise_the_damage_to_the_society_due_to_the_pandemic_the_lack_of_a_definite_cure_for_the_infection_makes_their_work_extra_tough_and_there_is_also_the_added_pressure_of_calming_the_nerves_of_the_patients_and_their_families_for_this_the_doctors_not_only_have_to_attend_to_patients_in_person_but_also_have_to_stay_connected_to_them_over_the_phone_and_through_video_conferencing_the_threat_of_them_catching_the_disease_and_infecting_their_own_families_also_looms_large_over_them_due_to_which_most_of_the_doctors_have_given_up_going_homes_and_have_shifted_to_solitary_accommodations_where_they_go_to_take_rest_after_completing_their_duty_hours_which_could_stretch_to_15_or_even_18_hours_in_a_day"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:layout_below="@id/t6"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/doctor">
+
+    </ImageView>
+
+
+</RelativeLayout>
